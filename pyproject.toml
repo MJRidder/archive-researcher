@@ -1,0 +1,15 @@
+[project]
+name = "archive-researcher"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Maarten Ridder", email = "maartenj.ridder@gmail.com"},
+]
+dependencies = ["archive>=0.3", "llama-index>=0.13.3", "python-dotenv>=1.1.1", "notebook>=7.4.5"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
